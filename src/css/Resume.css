@@ -1,0 +1,58 @@
+
+.fw300{
+    font-weight: 300;
+}
+.fw800{
+    font-weight: 800;
+}
+.fw600{
+    font-weight: 600;
+}
+ .title-name{
+    padding-block: 45px;
+   font-size: 60px;
+   letter-spacing: 20px;
+ 
+}
+.titletext{
+    width: 65%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+        typing 2s,
+        cursor .4s step-end infinite alternate;
+}
+@keyframes cursor {
+    50% {border-color: transparent}
+}
+@keyframes typing {
+    from {width: 0}
+}
+ .jobtitle{
+    border-top: 1px solid rgba(186, 186, 186, 0.742);
+    border-bottom: 1px solid rgba(186, 186, 186, 0.742);
+    width: 98%;
+    margin-inline: auto;
+    padding-block: 10px;
+}
+.jobtitle p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+}
+.borderstyleSection1{
+    border-right:1px solid rgba(186, 186, 186, 0.742); 
+}
+.borderstyleresume{
+    border-bottom: 1px solid rgba(186, 186, 186, 0.742);
+}
+.title-sub{
+    margin-bottom: 15px;
+    text-decoration: underline dotted 3px grey;
+    transition: all .3s;  
+}
+.title-sub:hover{
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: underline dotted 5px grey;
+}
